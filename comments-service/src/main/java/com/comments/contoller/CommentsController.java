@@ -49,7 +49,9 @@ public class CommentsController implements ProcessController {
 		// TODO Auto-generated method stub
 		return commentsService.deleteDetails(id);
 	}
-
+	/**
+	 * this method for search coments
+	 */
 	@GetMapping()
 	@Override
 	public ResponseEntity<CommentsResponse> searchDetails(
